@@ -32,5 +32,4 @@ def initialize(*args)
   super
   @action = :create
 
-  @run_context.include_recipe "git"
 end
